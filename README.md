@@ -12,6 +12,8 @@ Final production target remains:
 
 `https://mivvlet.com/`
 
+The GitHub Pages copy uses GitHub Pages metadata so previews work before the domain is purchased. The Cloudflare/domain copy in `27_mivvlet_domain_launch/` remains configured for `mivvlet.com`.
+
 ## Privacy Boundary
 
 This folder must stay public-safe. Do not add passwords, private setup notes, OTPs, payment records, inbox screenshots, recovery details, or claim proof files here.
@@ -19,3 +21,5 @@ This folder must stay public-safe. Do not add passwords, private setup notes, OT
 ## Publish Flow
 
 Run `deploy-github-pages.command` from the workspace root. It initializes a standalone Git repo in this folder, creates or updates `Johnnycrypto289/mivvlet-site`, pushes the public files, and enables GitHub Pages from the `main` branch root.
+
+Run `refresh-github-pages-status.command` to update `publish-status.md` with the current repo, Pages, and live URL state.

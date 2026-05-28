@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mivvlet.com/sitemap.xml
+Sitemap: https://johnnycrypto289.github.io/mivvlet-site/sitemap.xml
