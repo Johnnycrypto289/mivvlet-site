@@ -382,6 +382,10 @@ footer p {
   font-weight: 900;
 }
 
+.links-shell .eyebrow {
+  font-size: 13px;
+}
+
 .link-stack {
   display: grid;
   gap: 12px;
@@ -406,6 +410,11 @@ footer p {
 .links-note b,
 .links-note span {
   overflow-wrap: anywhere;
+}
+
+.links-note span {
+  font-size: 16px;
+  line-height: 1.35;
 }
 
 @media (max-width: 1000px) {
