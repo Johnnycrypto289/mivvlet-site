@@ -1,0 +1,17 @@
+{
+  "name": "Mivvlet",
+  "short_name": "Mivvlet",
+  "description": "Tiny glitches. Big feelings.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f1e8",
+  "theme_color": "#10d8ce",
+  "icons": [
+    {
+      "src": "assets/profile/avatar-800.png",
+      "sizes": "800x800",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
