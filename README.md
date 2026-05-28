@@ -8,11 +8,17 @@ Temporary live URL after GitHub Pages activates:
 
 `https://johnnycrypto289.github.io/mivvlet-site/`
 
+Temporary social bio URL:
+
+`https://johnnycrypto289.github.io/mivvlet-site/links.html`
+
 Final production target remains:
 
 `https://mivvlet.com/`
 
 The GitHub Pages copy uses GitHub Pages metadata so previews work before the domain is purchased. The Cloudflare/domain copy in `27_mivvlet_domain_launch/` remains configured for `mivvlet.com`.
+
+The temporary GitHub Pages copy does not use an active `mailto:` link because `hello@mivvlet.com` is not routed yet.
 
 ## Privacy Boundary
 

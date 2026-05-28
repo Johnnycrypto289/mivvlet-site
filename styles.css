@@ -342,6 +342,72 @@ footer p {
   margin: 0;
 }
 
+.links-page {
+  min-height: 100vh;
+  background:
+    linear-gradient(135deg, rgba(16, 216, 206, .38), rgba(255, 201, 40, .28)),
+    var(--ink);
+}
+
+.links-shell {
+  width: min(560px, calc(100% - 32px));
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 46px 0;
+  display: grid;
+  align-content: center;
+  gap: 18px;
+  color: var(--white);
+  text-align: center;
+}
+
+.links-avatar {
+  width: 112px;
+  height: 112px;
+  margin: 0 auto;
+  border: 4px solid var(--white);
+  border-radius: 50%;
+  background: var(--white);
+}
+
+.links-shell h1 {
+  margin: 0;
+  font-size: clamp(52px, 14vw, 92px);
+  line-height: .9;
+}
+
+.links-shell p {
+  margin: 0;
+  font-size: 21px;
+  font-weight: 900;
+}
+
+.link-stack {
+  display: grid;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.secondary-action.light {
+  background: rgba(255, 253, 247, .08);
+  color: var(--white);
+}
+
+.links-note {
+  display: grid;
+  gap: 6px;
+  margin-top: 8px;
+  padding: 16px;
+  border: 3px solid rgba(255, 253, 247, .82);
+  border-radius: 8px;
+  background: rgba(17, 19, 24, .32);
+}
+
+.links-note b,
+.links-note span {
+  overflow-wrap: anywhere;
+}
+
 @media (max-width: 1000px) {
   .reel-grid,
   .mechanic-grid,
