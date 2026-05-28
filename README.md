@@ -20,6 +20,10 @@ Temporary public status:
 
 `https://johnnycrypto289.github.io/mivvlet-site/status.html`
 
+Temporary public brand kit:
+
+`https://johnnycrypto289.github.io/mivvlet-site/brand.html`
+
 Final production target remains:
 
 `https://mivvlet.com/`
