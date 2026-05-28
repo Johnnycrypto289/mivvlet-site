@@ -16,11 +16,15 @@ Temporary public contact:
 
 `https://github.com/Johnnycrypto289/mivvlet-site/issues/new?template=contact.yml`
 
+Temporary public status:
+
+`https://johnnycrypto289.github.io/mivvlet-site/status.html`
+
 Final production target remains:
 
 `https://mivvlet.com/`
 
-The GitHub Pages copy uses GitHub Pages metadata so previews work before the domain is purchased. The Cloudflare/domain copy in `27_mivvlet_domain_launch/` remains configured for `mivvlet.com`.
+The GitHub Pages copy uses GitHub Pages metadata so previews work before the domain is purchased. The Cloudflare/domain copy in `27_mivvlet_domain_launch/` remains configured for `mivvlet.com` and keeps the Cloudflare `_headers` and `_redirects` files.
 
 The temporary GitHub Pages copy does not use an active `mailto:` link because `hello@mivvlet.com` is not routed yet. Contact uses a GitHub issue form until domain email works.
 
