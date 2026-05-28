@@ -1,0 +1,36 @@
+name: Mivvlet contact
+description: Temporary public contact form until mivvlet.com email routing is live.
+title: "Contact: "
+labels:
+  - contact
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this temporary form for Mivvlet contact while domain email is activating. Do not include passwords, payment details, private codes, or sensitive personal information.
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason
+      options:
+        - Collaboration
+        - Licensing
+        - Press
+        - General
+    validations:
+      required: true
+  - type: input
+    id: reply
+    attributes:
+      label: Best public reply link or handle
+      description: Use a public social handle, website, or other non-sensitive contact route.
+      placeholder: "@yourhandle"
+    validations:
+      required: true
+  - type: textarea
+    id: message
+    attributes:
+      label: Message
+      description: Keep it short and public-safe.
+    validations:
+      required: true
