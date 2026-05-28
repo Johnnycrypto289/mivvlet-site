@@ -17,6 +17,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -25,6 +26,7 @@ body {
   color: var(--ink);
   font-family: Inter, Arial, Helvetica, sans-serif;
   letter-spacing: 0;
+  overflow-x: hidden;
 }
 
 a {
@@ -422,12 +424,14 @@ footer p {
 }
 
 .status-shell {
+  min-width: 0;
   padding: 118px clamp(16px, 4vw, 42px) 56px;
   display: grid;
   gap: 24px;
 }
 
 .status-hero {
+  min-width: 0;
   min-height: 360px;
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
@@ -440,6 +444,7 @@ footer p {
     linear-gradient(135deg, rgba(16, 216, 206, .34), rgba(255, 201, 40, .28)),
     var(--white);
   box-shadow: 10px 10px 0 rgba(17, 19, 24, .18);
+  overflow: hidden;
 }
 
 .status-hero h1 {
@@ -447,6 +452,7 @@ footer p {
   margin: 0;
   font-size: clamp(44px, 7vw, 92px);
   line-height: .92;
+  overflow-wrap: anywhere;
 }
 
 .status-hero p:not(.eyebrow) {
@@ -456,6 +462,7 @@ footer p {
   font-size: clamp(18px, 2vw, 24px);
   font-weight: 900;
   line-height: 1.22;
+  overflow-wrap: anywhere;
 }
 
 .status-hero img {
@@ -480,6 +487,7 @@ footer p {
   border-radius: 8px;
   background: var(--white);
   box-shadow: 8px 8px 0 rgba(17, 19, 24, .14);
+  overflow: hidden;
 }
 
 .status-grid article:nth-child(1) {
@@ -524,6 +532,7 @@ footer p {
   font-size: 17px;
   font-weight: 800;
   line-height: 1.35;
+  overflow-wrap: anywhere;
 }
 
 .status-grid a,
@@ -619,6 +628,11 @@ footer p {
   .hero h1 {
     font-size: 44px;
     line-height: .95;
+  }
+
+  .status-hero h1 {
+    font-size: 38px;
+    line-height: .98;
   }
 
   .hero p:not(.eyebrow) {
